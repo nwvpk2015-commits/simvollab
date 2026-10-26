@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#97bb63">
+<title>Контакты — СимволЛаб</title>
+<meta name="description" content="Телефон, e-mail, адрес и время работы компании СимволЛаб. Оставьте заявку на нанесение.">
+<link rel="stylesheet" href="css/style.css?v=24">
+</head>
+<body>
+<header class="site-header">
+  <div class="top"><div class="inner">
+    <a class="logo-card" href="index.html" aria-label="СимволЛаб — на главную"><img src="img/icons/logotip.svg" alt="СимволЛаб"></a>
+    <div class="top-right">
+      <div class="social">
+        <a href="#" data-soc="max" aria-label="Max"><img src="img/icons/max_iconka.svg" alt="Max"></a>
+        <a href="#" data-soc="vk" aria-label="ВКонтакте"><img src="img/icons/vk_icon.svg" alt="ВКонтакте"></a>
+        <a href="#" data-soc="tg" aria-label="Telegram"><img src="img/icons/tg_icon.svg" alt="Telegram"></a>
+      </div>
+      <a class="phone" href="tel:+79999999999">+7 <span>(999)</span> 999 -99-99</a>
+    </div>
+  </div></div>
+  <div class="lines"></div>
+</header>
+<div class="menu-row"><div class="inner">
+  <button class="burger" aria-expanded="false" aria-controls="nav"><span>Меню</span><span class="bars" aria-hidden="true">☰</span></button>
+  <nav id="nav" aria-label="Основное меню"><a href="index.html">О компании</a><a href="directions.html">Направления</a><a href="works.html">Наши работы</a><a href="contacts.html" aria-current="page">Контакты</a></nav>
+</div></div>
+
+<main>
+<section class="hero hero-plain"><div class="inner">
+  <h1 class="page-title">Контакты</h1>
+  <p class="page-sub">Позвоните, напишите или оставьте заявку — подскажем и рассчитаем стоимость.</p>
+</div></section>
+<section class="green"><div class="inner">
+  <div class="contacts-grid">
+    <div class="panel">
+      <h2>Как нас найти</h2>
+      <dl class="dl">
+        <div><dt>Телефон</dt><dd><a href="tel:+79999999999">+7 (999) 999-99-99</a></dd></div>
+        <div><dt>E-mail</dt><dd><a href="mailto:simvollab@mail.ru">simvollab@mail.ru</a></dd></div>
+        <div><dt>Адрес</dt><dd>г. Москва, ул. Успешный успех, д. 1, оф. 1</dd></div>
+        <div><dt>Время работы</dt><dd>Пн-Пт, с 10-00 до 18-00</dd></div>
+      </dl>
+    </div>
+    <div class="panel">
+      <h2>Оставить заявку</h2>
+      <form class="lead-form" novalidate>
+      <p class="sub">Расскажите, что нужно нанести и на что — мы свяжемся с вами.</p>
+      <input type="text" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <label>Ваше имя<input type="text" name="name" autocomplete="name" required></label>
+      <label>Телефон или e-mail<input type="text" name="contact" autocomplete="tel" required></label>
+      <label>Что нужно сделать<textarea name="message" placeholder="Например: 100 футболок с логотипом, DTF-печать"></textarea></label>
+      <button class="btn" type="submit">Отправить заявку</button>
+      <div class="status" role="status" aria-live="polite"></div>
+      <p class="consent">Нажимая кнопку, вы соглашаетесь на обработку указанных данных для связи с вами.</p>
+    </form>
+    </div>
+  </div>
+</div></section>
+</main>
+<footer class="footer"><div class="inner">
+  <div class="f-left">
+    <div class="logo"><img src="img/icons/logotip-light.svg" alt="СимволЛаб"></div>
+    <p class="name">Компания “СимволЛаб”</p>
+    <p class="tag">Печать, пошив, брендирование<br>любой сложности</p>
+  </div>
+  <div class="f-right">
+    <address>
+      Контакты<br>
+      тел: <a href="tel:+79999999999">+7 (999) 999-99-99</a><br>
+      e-mail: <a href="mailto:simvollab@mail.ru">simvollab@mail.ru</a>
+    </address>
+    <div class="social">
+      <a href="#" data-soc="max" aria-label="Max"><img src="img/icons/max_iconka.svg" alt="Max"></a>
+      <a href="#" data-soc="vk" aria-label="ВКонтакте"><img src="img/icons/vk_icon.svg" alt="ВКонтакте"></a>
+      <a href="#" data-soc="tg" aria-label="Telegram"><img src="img/icons/tg_icon.svg" alt="Telegram"></a>
+    </div>
+  </div>
+</div></footer>
+
+<dialog id="lead-dialog" aria-label="Заявка">
+  <div class="panel">
+    <button class="x" data-close aria-label="Закрыть">×</button>
+    <h2>Оставить заявку</h2>
+    <form class="lead-form" novalidate>
+      <p class="sub">Расскажите, что нужно нанести и на что — мы свяжемся с вами.</p>
+      <input type="text" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <label>Ваше имя<input type="text" name="name" autocomplete="name" required></label>
+      <label>Телефон или e-mail<input type="text" name="contact" autocomplete="tel" required></label>
+      <label>Что нужно сделать<textarea name="message" placeholder="Например: 100 футболок с логотипом, DTF-печать"></textarea></label>
+      <button class="btn" type="submit">Отправить заявку</button>
+      <div class="status" role="status" aria-live="polite"></div>
+      <p class="consent">Нажимая кнопку, вы соглашаетесь на обработку указанных данных для связи с вами.</p>
+    </form>
+  </div>
+</dialog>
+
+<script src="js/config.js?v=24"></script>
+<script src="js/main.js?v=24"></script>
+</body>
+</html>
